@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Mirror;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : NetworkBehaviour
 {
     PlayerInput PlayerInput;
     InputAction moveAction;
@@ -16,6 +17,11 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        //si pas client ne pas tourner cette methode
+        if (!isLocalPlayer)
+        {
+            return;
+        }
         MovePlayer();
     }
 

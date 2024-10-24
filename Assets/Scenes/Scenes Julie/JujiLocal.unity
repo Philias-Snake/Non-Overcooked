@@ -649,7 +649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 621567455fd1c4ceb811cc8a00b6a1a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_NotificationBehavior: 3
+  m_NotificationBehavior: 0
   m_MaxPlayerCount: 4
   m_AllowJoining: 1
   m_JoinBehavior: 0
@@ -705,5 +705,4 @@ SceneRoots:
   - {fileID: 2065515318}
   - {fileID: 333336452}
   - {fileID: 402304319}
-  - {fileID: 488728022}
   - {fileID: 2118982423}

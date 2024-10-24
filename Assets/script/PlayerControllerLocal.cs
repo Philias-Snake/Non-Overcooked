@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,6 +18,11 @@ public class PlayerControllerLocal : MonoBehaviour
     void Update()
     {
         MovePlayer();
+    }
+
+    private void OnEnable()
+    {
+        
     }
 
     void MovePlayer()

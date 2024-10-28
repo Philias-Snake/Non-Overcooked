@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 8062826437920263067}
   m_Layer: 0
   m_Name: PlayerOnline
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -149,6 +149,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d70c747c3e8c1f499b939da0d9fcaf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
   moveSpeed: 50
 --- !u!114 &8778948840352637958
 MonoBehaviour:

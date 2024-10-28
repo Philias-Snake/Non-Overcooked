@@ -1,9 +1,17 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Mercury.meta
 guid: d1425ea379338544496afeaa1da8b1e1
 ========
 guid: 5cf8eb36be0834b3da408c694a41cb88
 >>>>>>>> main:Assets/Mirror.meta
+=======
+<<<<<<<< HEAD:Assets/Mirror.meta
+guid: 5cf8eb36be0834b3da408c694a41cb88
+========
+guid: b33d1506420734747b14f7a7c9cc3c1e
+>>>>>>>> Guillaume:Assets/Guillaume.meta
+>>>>>>> origin/Julie
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Mirror.meta
+guid: 7e9cc44114d1160498059ec3c8f9234b
+========
 guid: b33d1506420734747b14f7a7c9cc3c1e
+>>>>>>>> Guillaume:Assets/Guillaume.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

@@ -4,6 +4,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     private static GameManager _instance;
+    public GameObject[] Players;
+    public GameObject[] Panel;
     public static GameManager Instance
     {
         get
@@ -91,3 +93,4 @@ public enum GameState
     Win,
     Lose
 }
+

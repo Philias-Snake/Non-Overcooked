@@ -1,26 +1,31 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BackEndLocal : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+        // Initialization logic if needed
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        GameManager.OnGameStateChanged += GameManagerOnGameStateChanged;
+        if (GameManager.Instance.gameState == GameState.GameStart)
+        {
+            // Add relevant logic for GameStart state here
+        }
     }
 
     private void Awake()
     {
         GameManager.OnGameStateChanged += GameManagerOnGameStateChanged;
     }
+
+    private void OnDestroy()
+    {
+        GameManager.OnGameStateChanged -= GameManagerOnGameStateChanged;
+    }
+
     private void GameManagerOnGameStateChanged(GameState newState)
     {
         Debug.Log("Game State Changed to: " + newState);

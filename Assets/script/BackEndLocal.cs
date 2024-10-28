@@ -6,15 +6,17 @@ using PlayerInput = UnityEngine.InputSystem.PlayerInput;
 public class BackEndLocal : MonoBehaviour
 {
     public int PlayerNumber;
+    public bool isNormalSp = false;
     PlayerInput playerInput;
     InputAction validateAction;
     PlayerControllerLocal playerControllerLocal;
     
     void Update()
     {
-        if (GameManager.Instance.gameState == GameState.InGame)
+        if (GameManager.Instance.gameState == GameState.InGame && !isNormalSp)
         {
             playerControllerLocal.moveSpeed = 50;
+            isNormalSp = true;
         }
 
         if (GameManager.Instance.gameState == GameState.GameStart)

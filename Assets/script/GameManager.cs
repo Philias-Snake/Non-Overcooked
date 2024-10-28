@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -25,6 +26,15 @@ public class GameManager : MonoBehaviour
     public static event Action<GameState> OnGameStateChanged;
 
     public bool HasCard { get; set; }
+
+    private void Update()
+    {
+        if (IsReady.All(c => c == true))
+        {
+            UpdateGameState(GameState.InGame);
+        }
+
+    }
 
     private void Awake()
     {
@@ -72,12 +82,13 @@ public class GameManager : MonoBehaviour
     
     private void HandleGameStart()
     {
-        // Logic for starting the game
+        Debug.Log("Game Start");
     }
 
     private void HandleInGame()
     {
         // Logic for when the game is in progress
+        //Start all game related logic
     }
 
     private void HandleWin()

@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public bool[] IsReady = { false, false, false, false };
     public GameObject[] SpawnPoints;
     public GameObject[] Panel;
+    public GameObject CanvasGameStart;
     public static GameManager Instance
     {
         get
@@ -63,6 +64,7 @@ public class GameManager : MonoBehaviour
                 HandleGameStart();
                 break;
             case GameState.InGame:
+                CanvasGameStart.SetActive(false);
                 HandleInGame();
                 break;
             case GameState.Win:

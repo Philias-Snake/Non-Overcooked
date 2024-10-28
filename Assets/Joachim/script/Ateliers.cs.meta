@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Mirror/Examples/Pong/Scripts/Ball.cs.meta
-guid: 38b5c2f743cd8034a8beeebf277c92c1
-timeCreated: 1426602353
+<<<<<<<< HEAD:Assets/Mirror/Examples/Pong/Scripts/Player.cs.meta
+guid: d574657b3ae7af94eb2a973a35bac37c
+timeCreated: 1426597826
 licenseType: Store
 ========
-guid: f8bc5f2a3361afe48b8bbc76183112d1
->>>>>>>> Guillaume:Assets/Guillaume/C#/MenuMain.cs.meta
+guid: 1f048d92024d5dd47b6e455fc05563fa
+>>>>>>>> origin/Joachim:Assets/Joachim/script/Ateliers.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

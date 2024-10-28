@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Toys
   - Station
+  - Iron/Wood
+  - Ressources
   layers:
   - Default
   - TransparentFX

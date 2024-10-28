@@ -64,7 +64,7 @@ public class GameManager : MonoBehaviour
                 HandleGameStart();
                 break;
             case GameState.InGame:
-                CanvasGameStart.SetActive(false);
+                CanvasGameStart.SetActive(false );
                 HandleInGame();
                 break;
             case GameState.Win:

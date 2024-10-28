@@ -19,4 +19,9 @@ public class MenuMain : MonoBehaviour
     {
         close.SetActive(true);
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }

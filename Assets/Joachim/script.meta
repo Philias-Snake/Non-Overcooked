@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Mirror/Examples/AdditiveLevels/Scenes.meta
+guid: e6a4833a1ffbd6e4a84237f35df074e0
+========
 guid: 7792fad176fce1e4a8404a5f1e593d13
+>>>>>>>> origin/Joachim:Assets/Joachim/script.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

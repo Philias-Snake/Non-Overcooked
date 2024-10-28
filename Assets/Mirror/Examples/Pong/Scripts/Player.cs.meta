@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Mirror/Examples/Pong/Scripts/Player.cs.meta
+guid: 0748c7eda22b19845b9ce0e4d23d1021
+timeCreated: 1426597826
+licenseType: Store
+========
+guid: 1f048d92024d5dd47b6e455fc05563fa
+>>>>>>>> origin/Joachim:Assets/Joachim/script/Ateliers.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

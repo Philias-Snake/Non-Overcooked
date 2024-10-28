@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Other.meta
+guid: f1bc8635e455ea844898d229bcac3e6d
+========
 guid: dc349f1b529e12245810b57ce52d38fa
+>>>>>>>> origin/Joachim:Assets/Joachim.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

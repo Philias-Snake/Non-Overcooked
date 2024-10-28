@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Mirror/Examples/Pong/Scripts/Ball.cs.meta
+guid: 38b5c2f743cd8034a8beeebf277c92c1
+timeCreated: 1426602353
+licenseType: Store
+========
+guid: f8bc5f2a3361afe48b8bbc76183112d1
+>>>>>>>> Guillaume:Assets/Guillaume/C#/MenuMain.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

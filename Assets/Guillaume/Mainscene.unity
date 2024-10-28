@@ -122,15 +122,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
-<<<<<<<< HEAD:Assets/Guillaume/Mainscene.unity
---- !u!1 &1538885964
-========
-<<<<<<<< HEAD:Assets/Tom/Scene.unity
---- !u!1 &205877357
-========
---- !u!1 &100745189
->>>>>>>> main:Assets/Tom/Mainscene.unity
->>>>>>>> Tom:Assets/Tom/Mainscene.unity
+--- !u!1 &410964426
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,142 +130,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<<< HEAD:Assets/Guillaume/Mainscene.unity
-  - component: {fileID: 1538885966}
-  - component: {fileID: 1538885965}
-========
-<<<<<<<< HEAD:Assets/Tom/Scene.unity
-  - component: {fileID: 205877360}
-  - component: {fileID: 205877359}
-  - component: {fileID: 205877358}
-========
-  - component: {fileID: 100745192}
-  - component: {fileID: 100745191}
-  - component: {fileID: 100745190}
->>>>>>>> main:Assets/Tom/Mainscene.unity
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-<<<<<<<< HEAD:Assets/Tom/Scene.unity
---- !u!81 &205877358
-========
---- !u!81 &100745190
->>>>>>>> main:Assets/Tom/Mainscene.unity
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/Tom/Scene.unity
-  m_GameObject: {fileID: 205877357}
-  m_Enabled: 1
---- !u!20 &205877359
-========
-  m_GameObject: {fileID: 100745189}
-  m_Enabled: 1
---- !u!20 &100745191
->>>>>>>> main:Assets/Tom/Mainscene.unity
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/Tom/Scene.unity
-  m_GameObject: {fileID: 205877357}
-========
-  m_GameObject: {fileID: 100745189}
->>>>>>>> main:Assets/Tom/Mainscene.unity
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_Iso: 200
-  m_ShutterSpeed: 0.005
-  m_Aperture: 16
-  m_FocusDistance: 10
-  m_FocalLength: 50
-  m_BladeCount: 5
-  m_Curvature: {x: 2, y: 11}
-  m_BarrelClipping: 0.25
-  m_Anamorphism: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
-<<<<<<<< HEAD:Assets/Tom/Scene.unity
---- !u!4 &205877360
-========
---- !u!4 &100745192
->>>>>>>> main:Assets/Tom/Mainscene.unity
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/Tom/Scene.unity
-  m_GameObject: {fileID: 205877357}
-========
-  m_GameObject: {fileID: 100745189}
->>>>>>>> main:Assets/Tom/Mainscene.unity
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<<< HEAD:Assets/Tom/Scene.unity
---- !u!1 &432523525
-========
---- !u!1 &1789115427
->>>>>>>> main:Assets/Tom/Mainscene.unity
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-<<<<<<<< HEAD:Assets/Tom/Scene.unity
-  - component: {fileID: 432523527}
-  - component: {fileID: 432523526}
-========
-  - component: {fileID: 1789115429}
-  - component: {fileID: 1789115428}
->>>>>>>> main:Assets/Tom/Mainscene.unity
->>>>>>>> Tom:Assets/Tom/Mainscene.unity
+  - component: {fileID: 410964428}
+  - component: {fileID: 410964427}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -281,29 +139,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<<< HEAD:Assets/Guillaume/Mainscene.unity
---- !u!108 &1538885965
-========
-<<<<<<<< HEAD:Assets/Tom/Scene.unity
---- !u!108 &432523526
-========
---- !u!108 &1789115428
->>>>>>>> main:Assets/Tom/Mainscene.unity
->>>>>>>> Tom:Assets/Tom/Mainscene.unity
+--- !u!108 &410964427
 Light:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/Guillaume/Mainscene.unity
-  m_GameObject: {fileID: 1538885964}
-========
-<<<<<<<< HEAD:Assets/Tom/Scene.unity
-  m_GameObject: {fileID: 432523525}
-========
-  m_GameObject: {fileID: 1789115427}
->>>>>>>> main:Assets/Tom/Mainscene.unity
->>>>>>>> Tom:Assets/Tom/Mainscene.unity
+  m_GameObject: {fileID: 410964426}
   m_Enabled: 1
   serializedVersion: 10
   m_Type: 1
@@ -359,29 +201,13 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
-<<<<<<<< HEAD:Assets/Guillaume/Mainscene.unity
---- !u!4 &1538885966
-========
-<<<<<<<< HEAD:Assets/Tom/Scene.unity
---- !u!4 &432523527
-========
---- !u!4 &1789115429
->>>>>>>> main:Assets/Tom/Mainscene.unity
->>>>>>>> Tom:Assets/Tom/Mainscene.unity
+--- !u!4 &410964428
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/Guillaume/Mainscene.unity
-  m_GameObject: {fileID: 1538885964}
-========
-<<<<<<<< HEAD:Assets/Tom/Scene.unity
-  m_GameObject: {fileID: 432523525}
-========
-  m_GameObject: {fileID: 1789115427}
->>>>>>>> main:Assets/Tom/Mainscene.unity
->>>>>>>> Tom:Assets/Tom/Mainscene.unity
+  m_GameObject: {fileID: 410964426}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
   m_LocalPosition: {x: 0, y: 3, z: 0}
@@ -390,7 +216,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &1712613691
+--- !u!1 &724129425
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -398,9 +224,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1712613694}
-  - component: {fileID: 1712613693}
-  - component: {fileID: 1712613692}
+  - component: {fileID: 724129428}
+  - component: {fileID: 724129427}
+  - component: {fileID: 724129426}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -408,21 +234,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1712613692
+--- !u!81 &724129426
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1712613691}
+  m_GameObject: {fileID: 724129425}
   m_Enabled: 1
---- !u!20 &1712613693
+--- !u!20 &724129427
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1712613691}
+  m_GameObject: {fileID: 724129425}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -467,13 +293,13 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &1712613694
+--- !u!4 &724129428
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1712613691}
+  m_GameObject: {fileID: 724129425}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: -10}
@@ -486,15 +312,5 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-<<<<<<<< HEAD:Assets/Guillaume/Mainscene.unity
-  - {fileID: 1712613694}
-  - {fileID: 1538885966}
-========
-<<<<<<<< HEAD:Assets/Tom/Scene.unity
-  - {fileID: 205877360}
-  - {fileID: 432523527}
-========
-  - {fileID: 100745192}
-  - {fileID: 1789115429}
->>>>>>>> main:Assets/Tom/Mainscene.unity
->>>>>>>> Tom:Assets/Tom/Mainscene.unity
+  - {fileID: 724129428}
+  - {fileID: 410964428}

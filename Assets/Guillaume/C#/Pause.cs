@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Pause : MonoBehaviour
 {
+
+
     public void OpenMenu(GameObject open)
     {
         open.SetActive(true);

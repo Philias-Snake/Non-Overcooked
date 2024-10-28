@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 79b4544653da5e24a8407eb1ac2bb5e8
+=======
+<<<<<<<< HEAD:Assets/Models.meta
+guid: 79b4544653da5e24a8407eb1ac2bb5e8
+========
+guid: 3a4ff4c9580e5684a86405177e73336c
+>>>>>>>> Guillaume:Assets/Guillaume/C#.meta
+>>>>>>> Julie
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

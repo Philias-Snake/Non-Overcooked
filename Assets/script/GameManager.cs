@@ -1,10 +1,12 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     private static GameManager _instance;
-    public GameObject[] Players;
+    public List<GameObject> Players = new List<GameObject>();
+    public bool[] IsReady = { false, false, false, false };
     public GameObject[] Panel;
     public static GameManager Instance
     {
@@ -58,6 +60,9 @@ public class GameManager : MonoBehaviour
             case GameState.Lose:
                 HandleLose();
                 break;
+            case GameState.Pause:
+                HandlePause();
+                break;
             default:
                 throw new ArgumentOutOfRangeException();
         }
@@ -84,6 +89,11 @@ public class GameManager : MonoBehaviour
     {
         // Logic for losing the game
     }
+
+    private void HandlePause()
+    {
+        // Logic For Game Pause
+    }
 }
 
 public enum GameState
@@ -91,6 +101,7 @@ public enum GameState
     GameStart,
     InGame,
     Win,
-    Lose
+    Lose,
+    Pause
 }
 

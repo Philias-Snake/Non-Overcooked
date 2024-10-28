@@ -122,11 +122,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
-<<<<<<<< HEAD:Assets/Guillaume/Game.unity
---- !u!1 &769748857
-========
 --- !u!1 &303813420
->>>>>>>> origin/Joachim:Assets/Joachim/Scene Joachim.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -134,10 +130,6 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<<< HEAD:Assets/Guillaume/Game.unity
-  - component: {fileID: 769748859}
-  - component: {fileID: 769748858}
-========
   - component: {fileID: 303813423}
   - component: {fileID: 303813422}
   - component: {fileID: 303813421}
@@ -232,7 +224,6 @@ GameObject:
   m_Component:
   - component: {fileID: 738588317}
   - component: {fileID: 738588316}
->>>>>>>> origin/Joachim:Assets/Joachim/Scene Joachim.unity
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -240,21 +231,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<<< HEAD:Assets/Guillaume/Game.unity
---- !u!108 &769748858
-========
 --- !u!108 &738588316
->>>>>>>> origin/Joachim:Assets/Joachim/Scene Joachim.unity
 Light:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/Guillaume/Game.unity
-  m_GameObject: {fileID: 769748857}
-========
   m_GameObject: {fileID: 738588315}
->>>>>>>> origin/Joachim:Assets/Joachim/Scene Joachim.unity
   m_Enabled: 1
   serializedVersion: 10
   m_Type: 1
@@ -310,21 +293,13 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
-<<<<<<<< HEAD:Assets/Guillaume/Game.unity
---- !u!4 &769748859
-========
 --- !u!4 &738588317
->>>>>>>> origin/Joachim:Assets/Joachim/Scene Joachim.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/Guillaume/Game.unity
-  m_GameObject: {fileID: 769748857}
-========
   m_GameObject: {fileID: 738588315}
->>>>>>>> origin/Joachim:Assets/Joachim/Scene Joachim.unity
   serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
   m_LocalPosition: {x: 0, y: 3, z: 0}
@@ -333,11 +308,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
-<<<<<<<< HEAD:Assets/Guillaume/Game.unity
---- !u!1 &1397112701
-========
 --- !u!1 &1488821951
->>>>>>>> origin/Joachim:Assets/Joachim/Scene Joachim.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -345,14 +316,6 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<<< HEAD:Assets/Guillaume/Game.unity
-  - component: {fileID: 1397112704}
-  - component: {fileID: 1397112703}
-  - component: {fileID: 1397112702}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-========
   - component: {fileID: 1488821955}
   - component: {fileID: 1488821954}
   - component: {fileID: 1488821953}
@@ -360,28 +323,16 @@ GameObject:
   m_Layer: 0
   m_Name: "Bo\xEEte test"
   m_TagString: Untagged
->>>>>>>> origin/Joachim:Assets/Joachim/Scene Joachim.unity
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<<< HEAD:Assets/Guillaume/Game.unity
---- !u!81 &1397112702
-AudioListener:
-========
 --- !u!65 &1488821952
 BoxCollider:
->>>>>>>> origin/Joachim:Assets/Joachim/Scene Joachim.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/Guillaume/Game.unity
-  m_GameObject: {fileID: 1397112701}
-  m_Enabled: 1
---- !u!20 &1397112703
-Camera:
-========
   m_GameObject: {fileID: 1488821951}
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -399,59 +350,10 @@ Camera:
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1488821953
 MeshRenderer:
->>>>>>>> origin/Joachim:Assets/Joachim/Scene Joachim.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/Guillaume/Game.unity
-  m_GameObject: {fileID: 1397112701}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_Iso: 200
-  m_ShutterSpeed: 0.005
-  m_Aperture: 16
-  m_FocusDistance: 10
-  m_FocalLength: 50
-  m_BladeCount: 5
-  m_Curvature: {x: 2, y: 11}
-  m_BarrelClipping: 0.25
-  m_Anamorphism: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &1397112704
-========
   m_GameObject: {fileID: 1488821951}
   m_Enabled: 1
   m_CastShadows: 1
@@ -466,7 +368,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c585042cb3113d3499caf20ee68708c8, type: 2}
+  - {fileID: 2100000, guid: 64de42646096fdd4ebc431034aacf5ea, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -497,23 +399,11 @@ MeshFilter:
   m_GameObject: {fileID: 1488821951}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1488821955
->>>>>>>> origin/Joachim:Assets/Joachim/Scene Joachim.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/Guillaume/Game.unity
-  m_GameObject: {fileID: 1397112701}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-========
   m_GameObject: {fileID: 1488821951}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -629,17 +519,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>>> origin/Joachim:Assets/Joachim/Scene Joachim.unity
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-<<<<<<<< HEAD:Assets/Guillaume/Game.unity
-  - {fileID: 1397112704}
-  - {fileID: 769748859}
-========
   - {fileID: 303813423}
   - {fileID: 738588317}
   - {fileID: 1767817955}
   - {fileID: 1488821955}
->>>>>>>> origin/Joachim:Assets/Joachim/Scene Joachim.unity

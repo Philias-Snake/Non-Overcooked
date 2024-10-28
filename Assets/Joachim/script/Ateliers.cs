@@ -4,34 +4,15 @@ using UnityEngine;
 
 public class Ateliers : MonoBehaviour
 {
-    [SerializeField] private bool triggerActive = false;
-
-    public void OnTriggerEnter(Collider other)
+    // Start is called before the first frame update
+    void Start()
     {
-        if (other.CompareTag("Player"))
-        {
-            triggerActive = true;
-        }
+        
     }
 
-    public void OnTriggerExit(Collider other)
+    // Update is called once per frame
+    void Update()
     {
-        if (other.CompareTag("Player"))
-        {
-            triggerActive = false;
-        }
-    }
-
-    private void Update()
-    {
-        if (triggerActive && Input.GetKeyDown(KeyCode.Space))
-        {
-            SomeCoolAction();
-        }
-    }
-
-    public void SomeCoolAction()
-    {
-
+        
     }
 }

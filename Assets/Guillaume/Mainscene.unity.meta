@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Guillaume/Mainscene.unity.meta
 guid: 05039e7a64d5a2147973d199f9b9690b
+========
+<<<<<<<< HEAD:Assets/Tom/Scene.unity.meta
+guid: f0e9885596410cd43b246854183cb565
+========
+guid: 7c2bd949da795b94eb78b81f900b44d8
+>>>>>>>> main:Assets/Tom/Mainscene.unity.meta
+>>>>>>>> Tom:Assets/Tom/Mainscene.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

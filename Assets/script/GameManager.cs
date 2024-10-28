@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     private static GameManager _instance;
     public List<GameObject> Players = new List<GameObject>();
     public bool[] IsReady = { false, false, false, false };
+    public GameObject[] SpawnPoints;
     public GameObject[] Panel;
     public static GameManager Instance
     {

@@ -15,22 +15,18 @@ public class BackEndLocal : MonoBehaviour
     {
         if (GameManager.Instance.gameState == GameState.InGame && !isNormalSp)
         {
+            transform.position = GameManager.Instance.SpawnPoints[PlayerNumber].transform.position;
             playerControllerLocal.moveSpeed = 50;
             isNormalSp = true;
         }
 
         if (GameManager.Instance.gameState == GameState.GameStart)
         {
-            if (validateAction.IsPressed())
+            if (GameManager.Instance.gameState == GameState.GameStart)
             {
-                switch (GameManager.Instance.IsReady[PlayerNumber])
+                if (validateAction.WasPressedThisFrame())
                 {
-                    case true :
-                        GameManager.Instance.IsReady[PlayerNumber] = false;
-                        break;
-                    case false:
-                        GameManager.Instance.IsReady[PlayerNumber] = true;
-                        break;
+                    GameManager.Instance.IsReady[PlayerNumber] = !GameManager.Instance.IsReady[PlayerNumber];
                 }
             }
         }

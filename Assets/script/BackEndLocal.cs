@@ -14,7 +14,7 @@ public class BackEndLocal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        GameManager.OnGameStateChanged += GameManagerOnGameStateChanged;
     }
 
     private void Awake()

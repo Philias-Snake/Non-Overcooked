@@ -11,8 +11,13 @@ public class GrabScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void OnTriggerStay()
+    void OnTriggerEnter(Collider collider)
     {
         
+    }
+
+    void OnTriggerExit(Collider collider)
+    {
+
     }
 }

@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Painted wood
+    second: {fileID: 2100000, guid: 86ff85c6a7c899146a99defc5e3465d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Wood Black
     second: {fileID: 2100000, guid: b60ddbe35e46ab6409da8f6563e8776c, type: 2}
   materials:

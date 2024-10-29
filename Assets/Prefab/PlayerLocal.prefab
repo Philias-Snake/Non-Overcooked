@@ -94,6 +94,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerNumber: 0
+  isNormalSp: 0
 --- !u!136 &6675134383957418072
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -142,7 +143,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 120
   m_CollisionDetection: 0
 --- !u!1001 &7205738806016611272
 PrefabInstance:

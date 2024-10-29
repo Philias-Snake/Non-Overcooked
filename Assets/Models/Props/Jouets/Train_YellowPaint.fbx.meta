@@ -9,6 +9,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Black Painted Wood
     second: {fileID: 2100000, guid: b60ddbe35e46ab6409da8f6563e8776c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yellow Painted Concrete
+    second: {fileID: 2100000, guid: c96549d8e3af7334a9604ba8ec12471b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

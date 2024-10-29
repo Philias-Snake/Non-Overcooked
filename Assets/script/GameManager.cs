@@ -111,6 +111,7 @@ public class GameManager : MonoBehaviour
         // Logic For Game Pause
     }
 
+    //Permet d'appeler la scène Menu grâce au bouton return
     public void ReturnButton()
     {
         SceneManager.LoadScene("Menu");

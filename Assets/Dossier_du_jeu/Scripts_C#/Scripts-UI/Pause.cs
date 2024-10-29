@@ -4,15 +4,29 @@ using UnityEngine;
 
 public class Pause : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject pauseUI;
+    public string sceneMenu;
+    public string sceneGame;
+
+    private void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (pauseUI.activeSelf)
+            {
+                pauseUI.SetActive(false);
+                Time.timeScale = 1;
+            }
+            else
+            {
+                pauseUI.SetActive(true);
+                Time.timeScale = 0;
+            }
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ToggleMenu(GameObject menu, bool isActive)
     {
-        
+        menu.SetActive(isActive);
     }
 }

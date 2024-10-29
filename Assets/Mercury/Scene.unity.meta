@@ -1,13 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Mercury/Scene.unity.meta
-<<<<<<<< HEAD:Assets/Mercury/Scene.unity.meta
-guid: 703310dbdd65e6c4e966d4614c04b006
-========
-guid: 7c2bd949da795b94eb78b81f900b44d8
->>>>>>>> main:Assets/Mercury/Mainscene.unity.meta
-========
-guid: 05039e7a64d5a2147973d199f9b9690b
->>>>>>>> origin/Julie:Assets/Guillaume/Mainscene.unity.meta
+guid: 994dc6e01c5b2c84187be08532ab8795
 DefaultImporter:
   externalObjects: {}
   userData: 

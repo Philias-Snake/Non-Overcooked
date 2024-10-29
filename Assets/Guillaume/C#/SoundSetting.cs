@@ -4,10 +4,16 @@ using UnityEngine.UI;
 
 public class SoundSetting : MonoBehaviour
 {
+    /// <summary>
+    /// 
+    /// </summary>
     [SerializeField] private AudioMixer audioMixer;
     [SerializeField] private Slider BgmSlider;
     [SerializeField] private Slider SfxSlider;
 
+    /// <summary>
+    /// 
+    /// </summary>
     private void Start()
     {
         if (PlayerPrefs.HasKey("bgmVolume"))
@@ -21,6 +27,9 @@ public class SoundSetting : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
     public void SetBgmVolume()
     {
         float volume = BgmSlider.value;
@@ -28,6 +37,9 @@ public class SoundSetting : MonoBehaviour
         PlayerPrefs.SetFloat("bgmVolume", volume);
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
     public void SetSfxVolume()
     {
         float volume = SfxSlider.value;
@@ -35,6 +47,9 @@ public class SoundSetting : MonoBehaviour
         PlayerPrefs.SetFloat("sfxVolume", volume);
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
     private void LoadVolume()
     {
         BgmSlider.value = PlayerPrefs.GetFloat("bgmVolume");

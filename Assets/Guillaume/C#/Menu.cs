@@ -7,18 +7,33 @@ using System;
 
 public class Menu : MonoBehaviour
 {
-    public ButtonState buttonState;
+    public static MenuManager Instance;
 
-    public static event Action<ButtonState> OnButtonStateChanged;
+    public MenuState State;
 
-    public void UpdateButtonState()
+    void Awake()
     {
-        switch ()
+        Instance = this;
+    }
+
+    public void UpdateMenuState(MenuState bouttonState)
+    {
+        State = bouttonState;
+        switch (buttonState)
         {
-            case ButtonState.ButtonPlay
+
         }
     }
 
+    public enum MenuState
+    {
+        Play,
+        Sounds,
+        Quit,
+        Yes,
+        No,
+        Return
+    }
 
     /// <summary>
     /// Appel la scène JujiLocal.

@@ -6,6 +6,15 @@
             "id": "6f5e8cd2-5db2-4016-b59d-73e82585916c",
             "actions": [
                 {
+                    "name": "Validate",
+                    "type": "Button",
+                    "id": "d881b05b-dfe3-40aa-99cf-c39b6b2bc766",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Move",
                     "type": "Value",
                     "id": "d9ac4106-4415-41f9-b516-77ccbd0428bd",
@@ -16,28 +25,6 @@
                 }
             ],
             "bindings": [
-                {
-                    "name": "",
-                    "id": "171f8521-9bdd-413c-a8bd-271bac1f6a8d",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "61ac0f9e-393e-4c28-b8c8-5b5ed6b0b604",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
                 {
                     "name": "2D Vector",
                     "id": "2e353547-4802-4fd2-9b34-f1c49701311d",
@@ -92,6 +79,17 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "1abf0323-3215-4c41-9c7f-dc2cfdcca540",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Validate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }

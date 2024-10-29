@@ -28,6 +28,11 @@ public class PlayerControllerLocal : MonoBehaviour
     void MovePlayer()
     {
         Vector2 direction = moveAction.ReadValue<Vector2>();
-        transform.position += new Vector3(direction.x, 0, direction.y) * moveSpeed * Time.deltaTime;
+        Vector3 moveDirection = new Vector3(direction.x, 0, direction.y) * moveSpeed * Time.deltaTime;
+        transform.position += moveDirection;
+        if (moveDirection != Vector3.zero)
+        {
+            transform.rotation = Quaternion.LookRotation(moveDirection, Vector3.up);
+        }
     }
 }

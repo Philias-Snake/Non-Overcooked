@@ -25,6 +25,6 @@ public class MenuManager : MonoBehaviour
 
     public void CloseMenu(GameObject close)
     {
-        close.SetActive(true);
+        close.SetActive(false);
     }
 }

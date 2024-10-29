@@ -6,16 +6,16 @@ using UnityEngine.SceneManagement;
 public class Menu : MonoBehaviour
 {
     /// <summary>
-    /// 
+    /// Appel la scène JujiLocal.
     /// </summary>
     public void Play()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("JujiLocal");
         Time.timeScale = 1f;
     }
 
     /// <summary>
-    /// 
+    /// Ouvre le menu.
     /// </summary>
     public void OpenMenu(GameObject open)
     {
@@ -23,7 +23,7 @@ public class Menu : MonoBehaviour
     }
 
     /// <summary>
-    /// 
+    /// Ferme le menu.
     /// </summary>
     public void CloseMenu(GameObject close)
     {
@@ -31,7 +31,7 @@ public class Menu : MonoBehaviour
     }
 
     /// <summary>
-    /// 
+    /// Ferme le jeu.
     /// </summary>
     public void Quit()
     {

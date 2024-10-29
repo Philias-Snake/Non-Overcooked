@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Guillaume/Menu.unity
     guid: 28fd20278d16c8a4f87ba39c261f5a16
+  - enabled: 1
+    path: Assets/Scenes Julie/JujiLocal.unity
+    guid: 5eddc52f303d1804ba14ccc1947914d0
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 40628d48a34b09548bc642522d17b9bc,
       type: 2}

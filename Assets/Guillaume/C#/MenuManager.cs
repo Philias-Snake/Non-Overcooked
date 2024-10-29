@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using System.Linq;
 using System;
 
-public class Menu : MonoBehaviour
+public class MenuManager : MonoBehaviour
 {
     public static MenuManager Instance;
 
@@ -19,7 +19,7 @@ public class Menu : MonoBehaviour
     public void UpdateMenuState(MenuState bouttonState)
     {
         State = bouttonState;
-        switch (buttonState)
+        switch (bouttonState)
         {
             case MenuState.Play:
                 PlayGame();
@@ -40,7 +40,7 @@ public class Menu : MonoBehaviour
                 PlayReturn();
                 break;
             default:
-                throw new ArgumentOutOfRangeException(nameof(buttonState), buttonState, null);
+                throw new ArgumentOutOfRangeException(nameof(bouttonState), bouttonState, null);
         }
     }
 
@@ -82,39 +82,5 @@ public class Menu : MonoBehaviour
         Yes,
         No,
         Return
-    }
-
-    /// <summary>
-    /// Appel la scène JujiLocal.
-    /// </summary>
-    public void Play()
-    {
-        SceneManager.LoadScene("JujiLocal");
-        Time.timeScale = 1f;
-    }
-
-    /// <summary>
-    /// Ouvre le menu.
-    /// </summary>
-    public void OpenMenu(GameObject open)
-    {
-        open.SetActive(true);
-        ButtonPlay.SetActive(false);
-    }
-
-    /// <summary>
-    /// Ferme le menu.
-    /// </summary>
-    public void CloseMenu(GameObject close)
-    {
-        close.SetActive(true);
-    }
-
-    /// <summary>
-    /// Ferme le jeu.
-    /// </summary>
-    public void Quit()
-    {
-        Application.Quit();
     }
 }

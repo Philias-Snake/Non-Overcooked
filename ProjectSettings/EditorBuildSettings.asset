@@ -4,19 +4,9 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-<<<<<<< HEAD
   m_Scenes: []
-=======
-  m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Mercury.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 0
-    path: Assets/Scenes/Scenes Julie/Juji.unity
-    guid: a852b27321e36ee47bcbe206ada8188b
->>>>>>> Julie
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 40628d48a34b09548bc642522d17b9bc,
       type: 2}
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 46306de412c907045ae41e874eb65796,
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 4415d5e9b9989ea4f90028c6e52eb47e,
       type: 3}

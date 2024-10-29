@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using System.Linq;
 using System;
 
-public class MenuManager : MonoBehaviour
+public class Menu : MonoBehaviour
 {
     public static MenuManager Instance;
 

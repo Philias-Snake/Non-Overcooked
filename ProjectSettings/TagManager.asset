@@ -4,10 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Toys
-  - Station
-  - Iron/Wood
-  - Ressources
+  - Packaging Station
+  - Unpainted Toy
+  - Painted Toy
+  - 'Gift '
+  - RedPaint Station
+  - BluePaint Station
+  - GreenPaint Station
   layers:
   - Default
   - TransparentFX

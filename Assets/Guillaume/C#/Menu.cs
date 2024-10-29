@@ -21,7 +21,14 @@ public class Menu : MonoBehaviour
         State = bouttonState;
         switch (buttonState)
         {
-
+            case MenuState.Play:
+                break;
+            
+            case MenuState.Sounds:
+                break;
+            
+            default:
+                throw new ArgumentOutOfRangeException(nameof(buttonState), buttonState, null);
         }
     }
 

@@ -25,10 +25,13 @@ public class ConveyorBelt : MonoBehaviour
 
     void OnTriggerEnter(Collider collision)
     {
+        //collision.GetComponent<Rigidbody>().useGravity = false;
         OnBelt.Add(collision.gameObject);
+        
     }
     void OnTriggerExit(Collider collision)
     {
+        //collision.GetComponent<Rigidbody>().useGravity=true;
         OnBelt.Remove(collision.gameObject);
     }
 }

@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -108,6 +110,11 @@ public class GameManager : MonoBehaviour
     {
         // Logic For Game Pause
     }
+
+    public void ReturnButton()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }
 
 public enum GameState
@@ -118,4 +125,3 @@ public enum GameState
     Lose,
     Pause
 }
-

@@ -1,9 +1,16 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     private static GameManager _instance;
+    public List<GameObject> Players = new List<GameObject>();
+    public bool[] IsReady = { false, false, false, false };
+    public GameObject[] SpawnPoints;
+    public GameObject[] Panel;
+    public GameObject CanvasGameStart;
     public static GameManager Instance
     {
         get
@@ -21,6 +28,15 @@ public class GameManager : MonoBehaviour
     public static event Action<GameState> OnGameStateChanged;
 
     public bool HasCard { get; set; }
+
+    private void Update()
+    {
+        if (IsReady.All(c => c == true))
+        {
+            UpdateGameState(GameState.InGame);
+        }
+
+    }
 
     private void Awake()
     {
@@ -48,6 +64,7 @@ public class GameManager : MonoBehaviour
                 HandleGameStart();
                 break;
             case GameState.InGame:
+                CanvasGameStart.SetActive(false );
                 HandleInGame();
                 break;
             case GameState.Win:
@@ -55,6 +72,9 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.Lose:
                 HandleLose();
+                break;
+            case GameState.Pause:
+                HandlePause();
                 break;
             default:
                 throw new ArgumentOutOfRangeException();
@@ -65,12 +85,13 @@ public class GameManager : MonoBehaviour
     
     private void HandleGameStart()
     {
-        // Logic for starting the game
+        Debug.Log("Game Start");
     }
 
     private void HandleInGame()
     {
         // Logic for when the game is in progress
+        //Start all game related logic
     }
 
     private void HandleWin()
@@ -82,6 +103,11 @@ public class GameManager : MonoBehaviour
     {
         // Logic for losing the game
     }
+
+    private void HandlePause()
+    {
+        // Logic For Game Pause
+    }
 }
 
 public enum GameState
@@ -89,5 +115,7 @@ public enum GameState
     GameStart,
     InGame,
     Win,
-    Lose
+    Lose,
+    Pause
 }
+

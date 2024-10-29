@@ -2452,7 +2452,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33f9a3145d149bf49a826794f51bee92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  sceneGame: 
 --- !u!114 &1876083500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2466,6 +2466,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseUI: {fileID: 360874486}
+  sceneMenu: 
+  sceneGame: 
 --- !u!1 &1926494017
 GameObject:
   m_ObjectHideFlags: 0

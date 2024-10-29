@@ -25,8 +25,13 @@ public class Pause : MonoBehaviour
         }
     }
 
-    public void ToggleMenu(GameObject menu, bool isActive)
+    public void OpenMenu(GameObject open)
     {
-        menu.SetActive(isActive);
+        open.SetActive(true);
+    }
+
+    public void CloseMenu(GameObject close)
+    {
+        close.SetActive(true);
     }
 }

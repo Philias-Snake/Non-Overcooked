@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MenuMain : MonoBehaviour
+public class Menu : MonoBehaviour
 {
     public void Play()
     {
         SceneManager.LoadScene("Game");
+        Time.timeScale = 1f;
     }
 
     public void OpenMenu(GameObject open)

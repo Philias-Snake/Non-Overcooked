@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7307647792438595318}
   - component: {fileID: 5337460726366792330}
   - component: {fileID: 8778948840352637958}
+  - component: {fileID: 8403091789273132508}
   - component: {fileID: 6675134383957418072}
   - component: {fileID: 463466733693842886}
   m_Layer: 0
@@ -61,7 +62,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 46306de412c907045ae41e874eb65796,
+  m_Actions: {fileID: -944628639613478452, guid: 4415d5e9b9989ea4f90028c6e52eb47e,
     type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
@@ -80,6 +81,20 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &8403091789273132508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4348908801865365474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b33b6a5e579870469147363fc648b7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerNumber: 0
+  isNormalSp: 0
 --- !u!136 &6675134383957418072
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -128,7 +143,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 120
   m_CollisionDetection: 0
 --- !u!1001 &7205738806016611272
 PrefabInstance:

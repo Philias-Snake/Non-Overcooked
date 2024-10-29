@@ -2,24 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GrabScript : MonoBehaviour
+public class GrabSystem : MonoBehaviour
 {
-    
-
     // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    // Update is called once per frame
-    void OnTriggerEnter(Collider collider)
+    IEnumerator GrabAction()
     {
         
-    }
-
-    void OnTriggerExit(Collider collider)
-    {
-
+        yield return null;
     }
 }

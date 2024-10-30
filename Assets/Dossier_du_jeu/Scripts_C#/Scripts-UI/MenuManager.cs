@@ -1,27 +1,40 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
-
-public class MenuManager : MonoBehaviour
+public static class MenuManager
 {
-    [SerializeField] private string sceneGame;
+    public static bool IsInitialised { get; private set; }
+    public static GameObject menuMenu, soundMenu, quitMenu;
 
-    public void PlayButton()
+    public static void Init()
     {
-        SceneManager.LoadScene(sceneGame);
+        GameObject canvas = GameObject.Find("Canvas");
+        menuMenu = canvas.transform.Find("MenuMenu").gameObject;
+        soundMenu = canvas.transform.Find("SoundMenu").gameObject;
+        quitMenu = canvas.transform.Find("QuitMenu").gameObject;
+
+        IsInitialised = true;
     }
 
-    public void OkButton()
-    {
-        Application.Quit();
-    }
 
-    public void OpenMenu(GameObject open)
+    public static void OpenMenu(Menu menu, GameObject callingMenu)
     {
-        open.SetActive(true);
-    }
+        if (!IsInitialised)
+            Init();
 
-    public void CloseMenu(GameObject close)
-    {
-        close.SetActive(false);
+        switch (menu)
+        {
+            case Menu.MENU:
+                menuMenu.SetActive(true);
+                break;
+                
+            case Menu.SOUND:
+                soundMenu.SetActive(true);
+                break;
+                
+            case Menu.QUIT:
+                quitMenu.SetActive(true);
+                break;
+        }
+
+        callingMenu.SetActive(false);
     }
 }

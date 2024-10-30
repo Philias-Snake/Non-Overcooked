@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class Pause : MonoBehaviour
 {
-    public GameObject pauseUI;
-    public string sceneMenu;
-    public string sceneGame;
+    [SerializeField] private GameObject pauseUI;
+    [SerializeField] private string sceneMenu;
+    [SerializeField] private string sceneGame;
 
     private void Update()
     {

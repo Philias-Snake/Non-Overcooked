@@ -1,8 +1,22 @@
 using UnityEngine;
-public static class MenuManager
+
+public class MenuManager : MonoBehaviour
 {
-    public static bool IsInitialised { get; private set; }
+    public static MenuManager Instance { get; private set; }
     public static GameObject menuMenu, soundMenu, quitMenu;
+
+    private void Awake()
+    {
+        if(Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     public static void Init()
     {
@@ -10,14 +24,11 @@ public static class MenuManager
         menuMenu = canvas.transform.Find("MenuMenu").gameObject;
         soundMenu = canvas.transform.Find("SoundMenu").gameObject;
         quitMenu = canvas.transform.Find("QuitMenu").gameObject;
-
-        IsInitialised = true;
     }
-
 
     public static void OpenMenu(Menu menu, GameObject callingMenu)
     {
-        if (!IsInitialised)
+        if (!menuMenu || !soundMenu || !quitMenu)
             Init();
 
         switch (menu)

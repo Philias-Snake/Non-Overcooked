@@ -1550,7 +1550,7 @@ GameObject:
   m_Component:
   - component: {fileID: 918952827}
   m_Layer: 5
-  m_Name: Boutons_Menu
+  m_Name: MenuMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1624,7 +1624,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1430420948}
   m_Layer: 5
-  m_Name: Quit
+  m_Name: QuitMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1895,7 +1895,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1573192993}
   m_Layer: 5
-  m_Name: Sounds
+  m_Name: SoundMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2282,7 +2282,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33f9a3145d149bf49a826794f51bee92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneGame: 
 --- !u!1 &1926494017
 GameObject:
   m_ObjectHideFlags: 0

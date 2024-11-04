@@ -7,6 +7,7 @@ public class BackEndLocal : MonoBehaviour
 {
     public int PlayerNumber;
     public bool isNormalSp = false;
+    public int playerSpeed;
     PlayerInput playerInput;
     InputAction validateAction;
     PlayerControllerLocal playerControllerLocal;
@@ -16,7 +17,7 @@ public class BackEndLocal : MonoBehaviour
         if (GameManager.Instance.gameState == GameState.InGame && !isNormalSp)
         {
             transform.position = GameManager.Instance.SpawnPoints[PlayerNumber].transform.position;
-            playerControllerLocal.moveSpeed = 50;
+            playerControllerLocal.moveSpeed = playerSpeed;
             isNormalSp = true;
         }
 

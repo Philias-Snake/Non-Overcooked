@@ -4,6 +4,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+//TODO: faire les commentaires
 
 public class GameManager : MonoBehaviour
 {
@@ -111,7 +112,7 @@ public class GameManager : MonoBehaviour
         // Logic For Game Pause
     }
 
-    //Permet d'appeler la scène Menu grâce au bouton return
+    //Permet d'appeler la scï¿½ne Menu grï¿½ce au bouton return
     public void ReturnButton()
     {
         SceneManager.LoadScene("Menu");

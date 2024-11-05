@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Packaging Station
+  - Unpainted Toy
+  - Painted Toy
+  - 'Gift '
+  - RedPaint Station
+  - BluePaint Station
+  - GreenPaint Station
   layers:
   - Default
   - TransparentFX

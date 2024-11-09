@@ -2,5 +2,6 @@ public enum Menu
 {
     MENU,
     SOUND,
-    QUIT
+    QUIT,
+    PAUSE
 }

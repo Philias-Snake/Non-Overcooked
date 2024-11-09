@@ -3,7 +3,7 @@ using UnityEngine;
 public class MenuManager : MonoBehaviour
 {
     public static MenuManager Instance { get; private set; }
-    public static GameObject menuMenu, soundMenu, quitMenu;
+    public static GameObject menuMenu, soundMenu, quitMenu, pauseMenu;
 
     private void Awake()
     {
@@ -24,11 +24,12 @@ public class MenuManager : MonoBehaviour
         menuMenu = canvas.transform.Find("MenuMenu").gameObject;
         soundMenu = canvas.transform.Find("SoundMenu").gameObject;
         quitMenu = canvas.transform.Find("QuitMenu").gameObject;
+        pauseMenu = canvas.transform.Find("PauseMenu").gameObject;
     }
 
     public static void OpenMenu(Menu menu, GameObject callingMenu)
     {
-        if (!menuMenu || !soundMenu || !quitMenu)
+        if (!menuMenu || !soundMenu || !quitMenu || !pauseMenu)
             Init();
 
         switch (menu)
@@ -43,6 +44,9 @@ public class MenuManager : MonoBehaviour
                 
             case Menu.QUIT:
                 quitMenu.SetActive(true);
+                break;
+            case Menu.PAUSE:
+                pauseMenu.SetActive(true);
                 break;
         }
 

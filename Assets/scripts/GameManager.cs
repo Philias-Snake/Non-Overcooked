@@ -4,15 +4,24 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+//TODO: faire les commentaires
 
 public class GameManager : MonoBehaviour
 {
     private static GameManager _instance;
+    [Header("Player Settings")]
+    //liste des joueurs dans la game
     public List<GameObject> Players = new List<GameObject>();
+    //est ce que le joueur est ready par default sur faux
     public bool[] IsReady = { false, false, false, false };
+    //les points de spawn des joueurs
     public GameObject[] SpawnPoints;
+    //les ui relieÃ©s au joueurs
     public GameObject[] Panel;
+    //le canvas de start du jeu
+    [Header("Game settings")]
     public GameObject CanvasGameStart;
+    // init game manager instance 
     public static GameManager Instance
     {
         get
@@ -24,11 +33,12 @@ public class GameManager : MonoBehaviour
             return _instance;
         }
     }
-
+    //init game state
     public GameState gameState;
 
     public static event Action<GameState> OnGameStateChanged;
 
+    //not importent
     public bool HasCard { get; set; }
 
     private void Update()
@@ -39,7 +49,7 @@ public class GameManager : MonoBehaviour
         }
 
     }
-
+    //set le dont destroy on load pour continuer a avoir meme si changement de scene
     private void Awake()
     {
         if (_instance != null && _instance != this)
@@ -57,9 +67,11 @@ public class GameManager : MonoBehaviour
         UpdateGameState(GameState.GameStart);
     }
 
+    //est appelÃ© en cas de changement de game state
     public void UpdateGameState(GameState newState)
     {
         gameState = newState; 
+        //gere le lencement de logique en fonction du nouveau game state
         switch (gameState)
         {
             case GameState.GameStart:
@@ -81,10 +93,10 @@ public class GameManager : MonoBehaviour
             default:
                 throw new ArgumentOutOfRangeException();
         }
-
+        //trigger l'action OnGameStateChanged
         OnGameStateChanged?.Invoke(newState);
     }
-    
+    //ca fait quoi dans ce game state
     private void HandleGameStart()
     {
         Debug.Log("Game Start");
@@ -105,19 +117,20 @@ public class GameManager : MonoBehaviour
     {
         // Logic for losing the game
     }
-
+    
     private void HandlePause()
     {
         // Logic For Game Pause
     }
 
-    //Permet d'appeler la scène Menu grâce au bouton return
+    //Permet d'appeler la scï¿½ne Menu grï¿½ce au bouton return
     public void ReturnButton()
     {
         SceneManager.LoadScene("Menu");
     }
 }
 
+//gamestate permet de savoir l'etat actuel du jeu
 public enum GameState
 {
     GameStart,

@@ -6,6 +6,8 @@ public class BackEndLocal : MonoBehaviour
 {
     //le nombre de joueur dans la game
     public int PlayerNumber;
+    
+    [Header("Speed")]
     //bool qui verifie si le joueur est a la vitesse normale
     public bool isNormalSp = false;
     //player speed en temps normal

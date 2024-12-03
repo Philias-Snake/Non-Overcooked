@@ -9,6 +9,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     private static GameManager _instance;
+    [Header("Player Settings")]
     //liste des joueurs dans la game
     public List<GameObject> Players = new List<GameObject>();
     //est ce que le joueur est ready par default sur faux
@@ -18,6 +19,7 @@ public class GameManager : MonoBehaviour
     //les ui relieés au joueurs
     public GameObject[] Panel;
     //le canvas de start du jeu
+    [Header("Game settings")]
     public GameObject CanvasGameStart;
     // init game manager instance 
     public static GameManager Instance

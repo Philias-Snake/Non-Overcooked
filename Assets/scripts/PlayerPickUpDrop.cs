@@ -9,9 +9,7 @@ public class PlayerPickUpDrop : MonoBehaviour
     [SerializeField] Transform raycastOriginTransform;
     [SerializeField] Transform objectGrabPositionTransform;
     [SerializeField] LayerMask pickUpLayerMask;
-
     private GrabbableObject grabbableObject;
-
     public float pickupDistance = 2.0f;
 
     private void Awake()
@@ -19,23 +17,21 @@ public class PlayerPickUpDrop : MonoBehaviour
         interactAction = InputSystem.actions.FindAction("Interact");
     }
 
-    private void Update()
-    {
-        
-        if(interactAction.IsPressed()) {
-            if (grabbableObject = null) {
+    private void Update() {
+        if(interactAction.WasPressedThisFrame()) {
+
+            if (grabbableObject == null) {
+
                 //Mains Vides 
                 if (Physics.Raycast(raycastOriginTransform.position, raycastOriginTransform.forward, out RaycastHit raycastHit,
-                    pickupDistance, pickUpLayerMask))
-                {
-                    if (raycastHit.transform.TryGetComponent(out grabbableObject))
-                    {
+                    pickupDistance, pickUpLayerMask)) {
+
+                    if (raycastHit.transform.TryGetComponent(out grabbableObject)) {
                         grabbableObject.Grab(objectGrabPositionTransform);
                     }
                 }
-            }
-            else
-            {
+            } 
+            else {
                 //Transport d'un objet en cours 
                 grabbableObject.Drop();
                 grabbableObject = null;

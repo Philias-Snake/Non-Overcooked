@@ -225,7 +225,7 @@ MonoBehaviour:
   pickUpLayerMask:
     serializedVersion: 2
     m_Bits: 55
-  pickupDistance: 4
+  pickupDistance: 6
 --- !u!1 &7031217960212614021
 GameObject:
   m_ObjectHideFlags: 0

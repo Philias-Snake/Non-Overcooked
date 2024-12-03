@@ -28,7 +28,7 @@ public class PlayerPickUpDrop : MonoBehaviour
                 if (Physics.Raycast(raycastOriginTransform.position, raycastOriginTransform.forward, out RaycastHit raycastHit,
                     pickupDistance, pickUpLayerMask))
                 {
-                    if (raycastHit.transform.TryGetComponent(out GrabbableObject grabbableObject))
+                    if (raycastHit.transform.TryGetComponent(out grabbableObject))
                     {
                         grabbableObject.Grab(objectGrabPositionTransform);
                     }

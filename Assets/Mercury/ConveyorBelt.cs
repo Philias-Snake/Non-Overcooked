@@ -23,15 +23,15 @@ public class ConveyorBelt : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter(Collider collision)
+    void OnTriggerEnter(Collider other)
     {
         //collision.GetComponent<Rigidbody>().useGravity = false;
-        OnBelt.Add(collision.gameObject);
+        OnBelt.Add(other.gameObject);
         
     }
-    void OnTriggerExit(Collider collision)
+    void OnTriggerExit(Collider other)
     {
         //collision.GetComponent<Rigidbody>().useGravity=true;
-        OnBelt.Remove(collision.gameObject);
+        OnBelt.Remove(other.gameObject);
     }
 }

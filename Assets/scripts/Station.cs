@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.InputSystem;
 using UnityEngine;
 
 public class Station : MonoBehaviour
@@ -7,6 +8,14 @@ public class Station : MonoBehaviour
     public float action = 3.5f;
     public GameObject grabbed = null;
 
+    PlayerInput PlayerInput;
+    InputAction interacting;
+
+    private void Start()
+    {
+        PlayerInput = GetComponent<PlayerInput>();
+        interacting = PlayerInput.actions.FindAction("Interaction");
+    }
 
     private void Interaction(Collider other)
     {
@@ -71,7 +80,7 @@ public class Station : MonoBehaviour
             Debug.Log("Traîneaux export");
             if(Input.GetKeyDown("E"))
             {
-                Destroy(grabbed.tag);
+                Destroy(grabbed);
                 //Score système
             }
         }
